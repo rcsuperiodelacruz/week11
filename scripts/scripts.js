@@ -58,3 +58,11 @@ function populateList(shoppingList){
 }
 populateList(shoppingList)
 
+function squareList(){
+    const ulElement = document.querySelector('ul.shopping')
+    ulElement.classList.remove('circleList')
+    ulElement.classList.add('squareList')
+
+}
+
+squareList()
