@@ -9,3 +9,9 @@ const greet1 = function(){
 
 }
 greet1(name)
+
+const greet2 = (name)=>{
+    console.log("hello" + name)
+
+}
+greet2(name)
