@@ -1,7 +1,9 @@
-function greet(name){
-    console.log("hello" + name)
+function greet(name, time = 'day'){
+    console.log(`good ${time} ${name}`)
 }
 name = prompt('enter name')
+time = 'night'
+
 greet(name)
 
 const greet1 = function(){
