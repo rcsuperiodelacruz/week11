@@ -17,3 +17,14 @@ const greet2 = (name)=>{
 
 }
 greet2(name)
+
+radius = prompt('what is the radius of the circle')
+
+function circleArea(radius){
+    radius = parseInt(radius)
+    area = Math.PI * radius**2
+    return area
+}
+
+ area = circleArea(radius)
+ console.log(`the area of a circle with radius ${radius} is ${area}`)
